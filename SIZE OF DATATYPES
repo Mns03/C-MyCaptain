@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	cout<<"Size of int    : ";
+	cout<<sizeof(int);
+	cout<<" bytes.";
+	cout<<"\nSize of float  : ";
+	cout<<sizeof(float);
+	cout<<" bytes.";
+	cout<<"\nSize of double : ";
+	cout<<sizeof(double);
+	cout<<" bytes.";
+	cout<<"\nSize of char   : ";
+	cout<<sizeof(char);
+	cout<<" byte.";
+}
